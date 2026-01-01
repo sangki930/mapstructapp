@@ -5,7 +5,7 @@
 ## 🛠 기술 스택 (Tech Stack)
 
 - **Java**: 21
-- **Framework**: Spring Boot 3.4.1
+- **Framework**: Spring Boot 4.0.1
 - **Persistence**: MyBatis 3.0.4
 - **Database**: H2 (In-Memory)
 - **Mapping**: MapStruct 1.6.3
