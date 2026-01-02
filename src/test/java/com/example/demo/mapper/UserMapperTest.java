@@ -84,4 +84,21 @@ class UserMapperTest {
         // Then
         assertEquals(input, result.getRet());
     }
+
+    // @Test
+    // void shouldMapArrayListInGenerics() {
+    // // Given
+    // java.util.ArrayList<String> list = new java.util.ArrayList<>();
+    // list.add("item1");
+    // list.add("item2");
+    // DataReqDto<java.util.ArrayList<String>> reqDto = new DataReqDto<>(list);
+
+    // // When
+    // DataADto<java.util.ArrayList<String>> result =
+    // mapper.dataReqDtoToDataADto(reqDto);
+
+    // // Then
+    // assertEquals(list, result.getRet());
+    // assertEquals(2, result.getRet().size());
+    // }
 }
