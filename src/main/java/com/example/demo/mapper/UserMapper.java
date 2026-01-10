@@ -12,10 +12,12 @@ import org.mapstruct.factory.Mappers;
 public interface UserMapper {
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
+    // DTO로 변환
     @Mapping(source = "username", target = "name")
     @Mapping(source = "email", target = "emailAddress")
     UserDto toDto(User user);
 
+    // 엔티티로 변환
     @Mapping(source = "name", target = "username")
     @Mapping(source = "emailAddress", target = "email")
     User toEntity(UserDto userDto);
